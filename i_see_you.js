@@ -1,4 +1,7 @@
-
+/*I See You
+sound+code: http://www.giovannibedetti.com
+illustration: https://www.behance.net/monocolo
+*/
 
 var imgCount = 8;
 var imgs = [];
@@ -7,9 +10,6 @@ var recording=false;
 var index=0;
 var randomly=true;
 var bg;
-
-// For loading animation
-var loaderX, loaderY, theta;
 
 function preload(){
   loadImages();
@@ -41,10 +41,6 @@ function loadBg(){
     src: ['data/icu.bg.mp3', 'data/icu.bg.wav', 'data/icu.bg.aac', 'data/icu.bg.ogg'],
     loop: true,
   });
-  bg.play();
-}
-
-function playSound(){
   bg.play();
 }
 
